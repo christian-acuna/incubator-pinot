@@ -2307,7 +2307,7 @@ spec:
       spec:
         accessModes:
           - ReadWriteOnce
-        storageClassName: "default"   # "pd-ssd" or "standard" for GKE, "hostpath" for docker-desktop
+        storageClassName: "hostpath"   # "pd-ssd" or "standard" for GKE, "hostpath" for docker-desktop
         resources:
           requests:
             storage: 1Gi

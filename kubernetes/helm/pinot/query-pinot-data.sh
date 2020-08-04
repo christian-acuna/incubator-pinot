@@ -17,7 +17,7 @@
 # specific language governing permissions and limitations
 # under the License.
 #
-
+pinot-admin.sh
 if [[ $(nc -z  localhost 9000) != 0 ]]; then
   kubectl port-forward service/pinot-controller 9000:9000 -n pinot-quickstart > /dev/null &
 fi
