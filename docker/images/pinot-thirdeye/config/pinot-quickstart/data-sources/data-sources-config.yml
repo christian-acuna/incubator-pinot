@@ -3,7 +3,7 @@
 dataSourceConfigs:
   - className: org.apache.pinot.thirdeye.datasource.pinot.PinotThirdEyeDataSource
     properties:
-      zookeeperUrl: 'pinot-zookeeper:2181g'
+      zookeeperUrl: 'pinot-zookeeper:2181'
       clusterName: 'QuickStartCluster'
       controllerConnectionScheme: 'http'
       controllerHost: 'pinot-controller'
